@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label form="name">Name:</label>
+        <input type="text" name="name" placeholder="enter your first name">
+        <br>
+        <br>
+        <label form="name">Last Name:</label>
+        <input type="text" name="name" placeholder="enter your last name">
+        <br>
+        <br>
+        <label form="email">Email:</label>
+        <input type="email" name="email" placeholder="enter your email">
+        <br>
+        <br>
+        <label form="gender">Gender:</label>
+        <input type="checkbox" name="gender">Male
+        <input type="checkbox" name="gender">Female
+        <br>
+        <br>
+        <label form="password">Password:</label>
+        <input type="password" name=" " placeholder="password">
+        <br>
+        <br>
+        <label form="Age">Age:</label>
+        <input type="number" name=" ">
+        <br>
+        <br>
+        <label form=" confirm password">Confirm Password:</label>
+        <input type="confirm password" name=" " placeholder="confirm password">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        </fieldset>
+        <fieldset>
+            <legend>Education Section</legend>
+            <label form="degree">Degree</label>
+            <input type="text" name="institute" placeholder="Enter your Degree" />
+            <br>
+            <br>
+            <label form="institute">Institute</label>
+            <input type="text" name="institute" placeholder="Enter your Institute" />
+        </fieldset>
+        <br><br>
+        <textarea name="" id="" placeholder="enter your feedback..."></textarea>
+        <br><br>
+        <!-- button method -->
+         <input type="submit" value="Submit" />
+         <button>Click here to submit</button>
+
+         <!-- how to make dropdown -->
+          <!-- using select and option element -->
+        <br><br>
+          <select name="country">
+            <option value="us">US</option>
+            <option value="uk">UK</option>
+            <option value="india">INDIA</option>
+            <option value="australia">AUSTRALIA</option>
+            <option value="canda">CANADA</option>
+          </select>
+        <br><br>
+          <!-- optgroup to categerize options -->
+           <select name="vehicles">
+            <optgroup label="bikes">
+                <option value="pulsar">pulsar</option>
+                <option value="apache">apache</option>
+            </optgroup>
+            <optgroup label="cars">
+                <option value="maruthi">maruthi</option>
+                <option value="bmw">bmw</option>
+            </optgroup>
+            <optgroup label="trucks">
+                <option value="tata">tata</option>
+                <option value="volvo">volvo</option>
+            </optgroup>
+           </select>
+           <br><br>
+           <fieldset>
+            <legend>Dishes we offer</legend>
+           
+           <select name="items">
+            <optgroup label="tiffns">
+                <option value="dosa">dosa</option>
+                <option value="puri">puri</option>
+            </optgroup>
+            <optgroup label="Lunch">
+                <option value="chicken">Chicken</option>
+                <option value="Mutton">Mutton</option>
+            </optgroup>
+            <optgroup label="Dinner">
+                <option value="parota">parota</option>
+                <option value="chapathi">chapathi</option>
+            </optgroup>
+           </select>
+           </fieldset>
+           <br><br>
+           <!-- data list tag in HTML form -->
+
+           <input id="my browser" list="browsers" name="browser" placeholder="enter your fav browser name.."/>
+           <datalist id="ice cream-flavours">
+            <option value="chocolates"></option>
+            <option value="coconut"></option>
+            <option value="Mint"></option>
+            <option value="Straberry"></option>
+            <option value="vanilla"></option>
+           </datalist>
+</body>
+</html>
